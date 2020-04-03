@@ -57,6 +57,16 @@ header {
     background: url("images/Capture.PNG") no-repeat;
     background-size: cover;
     min-height: 90vh;
+    position: relative;
+}
+
+.top-section::before{
+    content: '';
+    display: block;
+    background: rgba(47, 23, 106, 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .top-text-field {
@@ -68,7 +78,6 @@ header {
 }
 
 .top-container {
-    /* position: relative; */
 }
 
 .top-bitcoin-field > img {
@@ -80,16 +89,26 @@ header {
     justify-content: center;
     border: 2px solid #fff;
     width: 90%;
-    padding: 5px;
+    padding: 5px 0;
     max-width: 440px;
+    min-width: 400px;
+    margin: 0 auto;
 }
 
 .top-section-paragraph {
-    margin: 25px 0;
+    margin: 25px auto;
+    width: 90%;
+    font-size: 20px;
 }
 
 .bitcoin-text {
     margin-left: 10px;
 }
 
+.top-section-paragraph-under {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
 /* top-section end */
