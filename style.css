@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.header-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-field {
+    width: 15%;
+    max-width: 170px;
+    min-width: 150px;
+}
+
+.logo-field > img {
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: inherit;
+}
+
+.navigation {
+    width: 45%;
+    color: #fff;
+    max-width: 360px;
+}
+
+/* header end */
+
+/* top-section */
+
+.top-section {
+    background: url("images/Capture.PNG") no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+
+/* top-section end */
