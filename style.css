@@ -67,8 +67,14 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     color: inherit;
+    font-family: Roboto Medium, sans-serif;
 }
-
+.nav > li {
+    transition: 0.3s;
+}
+.nav > li:hover {
+    color: #2FC381;
+}
 .navigation {
     width: 45%;
     color: #fff;
@@ -280,3 +286,32 @@ header {
     color: #5b319f;
 }
 /* ico-works end*/
+
+/* coin-icons */
+.coin-icons-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.top-coin-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.top-coin-icons > img {
+    width: 15%;
+}
+
+.bottom-coin-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-coin-icons > img {
+    width: 8%;
+}
+
+.coin-icons::before {content: '';display: block;background: rgba(56, 5, 88, 0.8);width: 100%;height: 30%;position: absolute;}
+/* coin-icons end */
