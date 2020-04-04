@@ -482,7 +482,7 @@ header {
 .our-team-container-title {
     font-family: Roboto Light, sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .our-team-desc-all {
@@ -528,6 +528,7 @@ header {
     color: #888888;
     font-size: 14px;
     margin-bottom: 10px;
+    font-family: Roboto Light, sans-serif;
 }
 
 .empty {
