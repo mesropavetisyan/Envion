@@ -35,7 +35,6 @@
 }
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -82,12 +81,15 @@ header {
     color: inherit;
     font-family: Roboto Medium, sans-serif;
 }
+
 .nav > li {
     transition: 0.3s;
 }
+
 .nav > li:hover {
     color: #2FC381;
 }
+
 .navigation {
     width: 45%;
     color: #fff;
@@ -105,7 +107,7 @@ header {
     position: relative;
 }
 
-.top-section::before{
+.top-section::before {
     content: '';
     display: block;
     background: rgba(47, 23, 106, 0.85);
@@ -202,6 +204,7 @@ header {
     background: #5923a6;
     color: #fff;
 }
+
 .btn-svg {
     display: flex;
     align-items: center;
@@ -214,7 +217,11 @@ header {
     text-align: center;
 }
 
-.portfolio-description-title {width: 40%;margin: 0 auto;min-width: 330px;}
+.portfolio-description-title {
+    width: 40%;
+    margin: 0 auto;
+    min-width: 330px;
+}
 
 .portfolio-description-paragraph {
     margin: 20px auto;
@@ -224,6 +231,7 @@ header {
 .portfolio-container {
     margin-bottom: 40px;
 }
+
 .portfolio-btn {
     width: 90px;
     margin: 0 auto;
@@ -243,7 +251,7 @@ header {
     position: relative;
 }
 
-.play::before{
+.play::before {
     content: '';
     display: block;
     background: rgba(79, 40, 130, 0.95);
@@ -269,7 +277,7 @@ header {
 
 /* ico-works */
 .ico-works-title {
-    font-family: Roboto Medium,sans-serif;
+    font-family: Roboto Medium, sans-serif;
     text-align: center;
     margin: 40px auto;
     font-size: 18px;
@@ -277,7 +285,7 @@ header {
 }
 
 .ico-works-description {
-    font-family: Roboto Light,sans-serif;
+    font-family: Roboto Light, sans-serif;
     width: 30%;
 }
 
@@ -298,6 +306,7 @@ header {
 .violet {
     color: #5b319f;
 }
+
 /* ico-works end*/
 
 /* coin-icons */
@@ -326,7 +335,15 @@ header {
     width: 8%;
 }
 
-.coin-icons::before {content: '';display: block;background: rgba(56, 5, 88, 0.8);width: 100%;height: 30%;position: absolute;}
+.coin-icons::before {
+    content: '';
+    display: block;
+    background: rgba(56, 5, 88, 0.8);
+    width: 100%;
+    height: 30%;
+    position: absolute;
+}
+
 /* coin-icons end */
 
 /* features */
@@ -343,7 +360,8 @@ header {
     margin-bottom: 20px;
 }
 
-.features-desc-all {}
+.features-desc-all {
+}
 
 .features-img {
     width: 30%;
@@ -369,20 +387,21 @@ header {
 
 .features-desc-title {
     margin: 20px 0;
-    color: rgba(90,90,90,0.95);
+    color: rgba(90, 90, 90, 0.95);
     font-size: 15px;
 }
 
 .features-desc-paragraph {
-    color: rgba(127,126,127,0.95);
+    color: rgba(127, 126, 127, 0.95);
     font-size: 13px;
 }
+
 /* features end */
 
 /* stay tuned */
 
 .stay-tuned {
-    background: url("images/Layer 10.jpg") no-repeat center ;
+    background: url("images/Layer 10.jpg") no-repeat center;
     background-size: cover;
     height: 45vh;
     position: relative;
@@ -404,7 +423,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: Helvetica Light,sans-serif;
+    font-family: Helvetica Light, sans-serif;
 }
 
 .stay-tuned-paragraph {
@@ -430,6 +449,7 @@ header {
 .btn-go:hover {
     color: #5923a6;
 }
+
 .email-go {
     position: relative;
     width: 40%;
@@ -450,3 +470,88 @@ header {
 }
 
 /* stay tuned end */
+
+/* our team */
+
+.our-team-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.our-team-container-title {
+    font-family: Roboto Light, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.our-team-desc-all {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.our-team-img {
+    width: 60%;
+    position: relative;
+}
+
+.our-team-img::before {
+    content: "";
+    display: block;
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    background: rgba(94, 42, 158, 0.7);
+    border-radius: 100%;
+}
+
+.our-team-img > img {
+    width: 100%;
+}
+
+.our-team-desc {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px #888888;
+    padding: 20px 0;
+    border-radius: 5px;
+    min-width: 173px;
+    max-width: 174px;
+}
+
+.our-team-human-desc {
+    text-align: center;
+    color: #888888;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.empty {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    top: 2px;
+    left: 2px;
+}
+
+.our-team-name {
+    margin: 5px 0;
+    font-family: Roboto Medium, sans-serif;
+    font-size: 13px;
+}
+
+.our-team-name::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #9d0cfb;
+    margin: 10px auto;
+}
+/* our team end */
