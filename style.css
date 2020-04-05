@@ -555,4 +555,78 @@ header {
     background: #9d0cfb;
     margin: 10px auto;
 }
+
 /* our team end */
+
+/* numbers */
+
+.numbers {
+    background: url("images/Layer 20.png") no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.numbers-row {
+    background: #fff;
+    width: 5px;
+    min-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers-row::before {
+    background: #fff;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    transform: translate(-25%, 0);
+    box-shadow: 0 0 0 4px #ffffff5e;
+}
+
+.numbers-row::after {
+    background: #fff;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 4px #ffffff5e;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-25%, 0);
+}
+
+.numbers-img {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+    width: 6%;
+    max-width: 60px;
+}
+
+.numbers-img > img {
+    width: 100%;
+}
+
+.numbers-img-19 {
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+
+.numbers-img-20 {
+    top: 60%;
+    transform: translate(-50%, -60%);
+}
+
+.numbers-img-21 {
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+/* numbers end */
+
