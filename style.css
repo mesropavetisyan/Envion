@@ -628,5 +628,93 @@ header {
     top: 80%;
     transform: translate(-50%, -80%);
 }
+
 /* numbers end */
+
+
+/* envion */
+
+.envion {
+    background: #242936;
+}
+
+.envion-top-field {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 1px solid #343B4E;
+}
+
+.envion-top-logo > img {
+    width: 100%;
+}
+
+.envion-top-logo {
+    width: 12%;
+    cursor: pointer;
+}
+
+.envion-top-description {
+    display: flex;
+    align-items: flex-end;
+}
+
+.envion-top-nav {margin-right: 25px;}
+
+.envion-top-nav > a {
+    color: #797373;
+    text-decoration-line: none;
+    transition: 0.3s;
+}
+
+.envion-top-nav > a:hover {
+    color: #2FC381;
+}
+
+.envion-bottom-field {
+    display: flex;
+    color: #fff;
+    width: 80%;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+.envion-text {
+    width: 50%;
+}
+
+.envion-text-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #e4d6d6;
+}
+
+.envion-icon-title {
+    margin: 20px 0;
+    color: #e4d6d6;
+}
+
+.envion-icon-field {
+    width: 15%;
+    text-align: center;
+}
+
+.envion-text-paragraph {
+    font-size: 13px;
+    color: #797373;
+}
+
+.envion-icon-paragraph {
+    font-size: 13px;
+    color: #797373;
+}
+
+.envion-icon {}
+
+
+
+/* envion end */
+
 
